@@ -210,7 +210,8 @@ body {
 
 .content-page {
     background: #FCFCFC;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .secondary-header {
@@ -258,8 +259,6 @@ body {
 .values-list {
     display: flex;
     flex-direction: row;
-    margin-top: 120px;
-    margin-bottom: 120px;
     justify-content: space-between;
 }
 
@@ -275,7 +274,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 72px;
-    margin-bottom: 120px;
 }
 
 .content-title {
