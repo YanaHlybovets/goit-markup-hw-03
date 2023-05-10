@@ -165,7 +165,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 96px;
     margin-bottom: 72px;
 }
 
@@ -199,6 +198,8 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 448px;
+    margin-top: 48px;
 }
 
 .order-button:hover,
@@ -212,6 +213,7 @@ body {
     width: 1440px;
     height: 600px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 188px 0;
 }
@@ -225,8 +227,7 @@ body {
     letter-spacing: 0.02em;
     max-width: 496px;
     height: 120px;
-    margin-bottom: 64px;
-    margin-top: 188px;
+    margin-left: 284px;
 }
 
 .content-page {
