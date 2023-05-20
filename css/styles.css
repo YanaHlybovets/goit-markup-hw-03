@@ -46,11 +46,6 @@ ul {
     list-style: none;
 }
 
-.link:hover,
-.link:focus {
-    text-decoration: underline;
-    color: #404BBF
-}
 
 img {
     display: block;
@@ -117,6 +112,11 @@ body {
     padding: 24px 0
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
 .contact-link {
     color: var(--secondary-text-color-theme-light);
     font-style: normal;
@@ -125,24 +125,13 @@ body {
     gap: 40px;
 }
 
-.contact-tel {
-    color: var(--secondary-text-color-theme-light);
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    margin-left: 40px;
-}
-
-.contact-mail {
-    color: var(--secondary-text-color-theme-light);
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em
+.contact-link:hover,
+.contact-link:focus {
+    color: #404BBF;
 }
 
 .content-button {
     background-color: var(--primary-text-color-theme-dark);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
@@ -224,9 +213,14 @@ body {
     margin-right: auto;
 }
 
-.content-page {
+.content-page-values {
     background: #FCFCFC;
     padding: 120px 0;
+}
+
+.content-page-activities {
+    background: #FCFCFC;
+    padding-bottom: 120px;
 }
 
 .content-page-portfolio {
@@ -247,7 +241,6 @@ body {
 
 .team-page {
     background: var(--primary-text-color-theme-dark);
-    width: 1440px;
     height: 732px;
     padding: 120px 0;
 }
@@ -375,7 +368,6 @@ body {
 
 .footer-bgd {
     background: var(--primary-text-color-theme-light);
-    width: 1440px;
     height: 312px;
     display: flex;
     flex-direction: column;
